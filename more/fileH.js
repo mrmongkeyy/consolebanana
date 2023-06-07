@@ -12,6 +12,6 @@ module.exports = {
 	},
 	"/file"(fn,res,cDir='public/media'){
 		//handline filetype.
-		res.file(`./more/${cDir}/${fn}`);
+		res.file(`./more/${cDir}/${fn}`,{'content-type':'image/png'});
 	}
 }
