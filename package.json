@@ -1,0 +1,19 @@
+{
+  "name": "consolebanana",
+  "version": "1.0.0",
+  "description": "web game app",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/mrmongkeyy/consolebanana"
+  },
+  "keywords": [
+    "good",
+    "app"
+  ],
+  "author": "gema",
+  "license": "MIT"
+}
