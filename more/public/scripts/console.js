@@ -367,7 +367,7 @@ class consolE{
 								else this.frameIndex = this.spritesheets.len-1;
 							}
 							const cropY = 0;
-							const cropW = Math.floor(this.spritesheets.width/this.spritesheets.len);
+							const cropW = this.spritesheets.width/this.spritesheets.len;
 							const cropX = this.frameIndex*cropW;
 							const cropH = this.spritesheets.height;
 							const wSize = cropW*this.scaleX;
