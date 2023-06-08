@@ -38,8 +38,6 @@ CONSOLE.Object('xmonster',{
 		this.y = this.engine.canvasSetting.height/2-200;
 		this.animations.newAnimation({
 			id:'idle',
-			scaleX:0.1,
-			scaleY:0.1,
 			spritesheets:{
 				src:CONSOLE.assets.img.idlebluemonster,
 				len:21,
@@ -50,8 +48,6 @@ CONSOLE.Object('xmonster',{
 		});
 		this.animations.newAnimation({
 			id:'walking',
-			scaleX:0.1,
-			scaleY:0.1,
 			spritesheets:{
 				src:CONSOLE.assets.img.walkingbluemonster,
 				len:21,
@@ -62,8 +58,6 @@ CONSOLE.Object('xmonster',{
 		});
 		this.animations.newAnimation({
 			id:'attacking',
-			scaleX:0.1,
-			scaleY:0.1,
 			frames:[
 				CONSOLE.assets.img.attacking_bm
 			],
